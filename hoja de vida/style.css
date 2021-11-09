@@ -1,3 +1,7 @@
+#div3{
+    display: flex;
+    justify-content: space-around;
+}
 #div2{
     display: flex;
     align-items: center;
@@ -12,11 +16,23 @@ font-style: italic ;
 font-weight: bold;
 }
 h1,h2{
-    background-color: khaki;
-    color: gray;
+    background-color:black;
+    color:#FEE9CB;
 }
 footer{
-    background-color: lightgray;
-    color: lightslategray;
+    background-color:black;
+    color:  #F4C875;
     text-align: center;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    color: #F4C875;
+}
+header {
+    background-image: url(img/luces.jpg);
+    background-size: repeat;
+}
+body{
+    background-color: whitesmoke;
 }
