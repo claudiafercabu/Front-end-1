@@ -1,0 +1,69 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    
+}
+.arriba{
+       background-color: #1CD1B0;
+       height: 38px;
+       padding: 10px;
+       font-family: 'Roboto','Times New Roman', Times, serif;
+   }
+.heroes{
+    background-color: #00669f;
+    padding:28px;
+    height:100px;
+    font-family: 'roboto','Times New Roman', Times, serif;
+}
+body{
+    font-family: 'roboto','Times New Roman', Times, serif;
+}
+.padre{
+    display:flex;
+flex-wrap:wrap;
+    justify-content: center;
+    padding:5%;
+}
+.hija{
+    position:relative;
+    margin:5%;
+    width:300px
+}
+.rueda{
+    border-radius:50%;
+}
+.centro{
+    position: absolute;
+    top:130px;
+    left:90px;
+}
+.cora{
+    position:absolute;
+    top:20px;
+    left:20px;
+}
+.mini{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    justify-content: center;
+    padding:10px; 
+    height:336px;
+    margin:0px;
+}
+.m2{
+    margin:10px;
+    text-align: center;
+
+}
+footer{
+    background-color: #00669f;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 51px;
+    padding: 15px;
+    justify-content: center;
+
+}
